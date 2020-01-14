@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    // "sourceMap": true,
+    "esModuleInterop": true,
+    "noEmitOnError": true,
+    "outDir": "dist",
+    "moduleResolution": "node"
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "./src/**/*.test.ts"]
+}
